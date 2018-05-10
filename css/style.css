@@ -1,0 +1,152 @@
+/* !important used because bootstrap was overriding them */
+
+.wrap {
+    max-width: 80%;
+    margin-left: 9em;
+    margin-right: 9em;
+    color: #2d3c49;
+}
+
+.project-list a, .project-list a:link {
+    text-decoration: none !important;
+    color: #729c92;
+}
+
+.page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.page-header img {
+    width: 150px;
+    height: 150px;
+}
+
+.divider {
+    flex-grow: 1;
+}
+
+.header-container {
+    text-align: right;
+    padding-right: 5%;
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container h1 {
+    font-size: 5em;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container h3 {
+    font-size: 2em;
+    padding-bottom: 5%;
+    margin: 0;
+    padding-right: 5px;
+}
+
+.main img{
+    width: 100%;
+    height: auto;
+}
+
+.main h3 {
+    font-size: 1.5em;
+}
+.main p {
+    font-size: 1.1em;
+}
+
+.main img{
+    padding-bottom: 1em;
+}
+
+.project-list h2 {
+    color: #7d97ad;
+}
+
+.project-list ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.project-list ul li {
+    padding: 11px;
+}
+
+.project-list ul h3 {
+    align-self: flex-end;
+    text-align: center;
+}
+
+.project-list img{
+    width: 300px;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+}
+
+hr {
+    border: 2px solid #7d97ad !important;
+    margin-bottom: 2em !important;
+}
+
+@media screen and (max-width: 950px){
+    .wrap {
+        max-width: 100%;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .header-container h1 {
+        font-size: 4em;
+    }
+    .project-list h2 {
+        text-align: center;
+    }
+
+    .project-list ul {
+        flex-direction: column;
+    }
+
+    .project-list ul li {
+        flex: 1;
+    }
+
+    .project-list ul li a img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    .header-container h1 {
+        font-size: 3em;
+    }
+
+    .header-container h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .header-container h1 {
+        font-size: 2.5em;
+    }
+
+    .header-container h3 {
+        font-size: 1em;
+    }
+
+}
